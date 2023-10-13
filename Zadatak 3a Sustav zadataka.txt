@@ -1,0 +1,37 @@
+Sustav zadataka
+Zadatak
+Zadan je sustav zadataka na slici (vidi poglavlje 4.2.3 u udžbeniku). Napišite program koji ostvaruje zadani sustav sa sedam novih dretava i potrebnim brojem neimenovanih binarnih semafora (funkcije sem_*). Zadatci moraju trajati slučajan broj od 0 do 9 sekunda. Svake sekunde zadatak mora ispisati što čini.
+
+Primjer ispisa pokretanja programa
+lumilic@barka:~/3$ ./a.out
+Izvodim zadatak 2: 1/7
+Izvodim zadatak 1: 1/4
+Izvodim zadatak 2: 2/7
+Izvodim zadatak 1: 2/4
+Izvodim zadatak 1: 3/4
+Izvodim zadatak 2: 3/7
+Izvodim zadatak 1: 4/4
+Izvodim zadatak 2: 4/7
+Izvodim zadatak 5: 1/6
+Izvodim zadatak 2: 5/7
+Izvodim zadatak 5: 2/6
+Izvodim zadatak 2: 6/7
+Izvodim zadatak 5: 3/6
+Izvodim zadatak 2: 7/7
+Izvodim zadatak 5: 4/6
+Izvodim zadatak 3: 1/2
+Izvodim zadatak 4: 1/5
+Izvodim zadatak 5: 5/6
+Izvodim zadatak 3: 2/2
+Izvodim zadatak 4: 2/5
+Izvodim zadatak 4: 3/5
+Izvodim zadatak 5: 6/6
+Izvodim zadatak 4: 4/5
+Izvodim zadatak 4: 5/5
+Izvodim zadatak 7: 1/7
+Izvodim zadatak 7: 2/7
+Izvodim zadatak 7: 3/7
+Izvodim zadatak 7: 4/7
+Izvodim zadatak 7: 5/7
+Izvodim zadatak 7: 6/7
+Izvodim zadatak 7: 7/7

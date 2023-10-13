@@ -1,0 +1,28 @@
+Problem barijere
+Zadatak
+S pomoću više dretava riješiti problem barijere. Potrebno je pokrenuti N dretava pri čemu je N argument komandne linije prilikom pokretanja programa. Svaka dretva treba zatražiti unos jednoga broja, pričekati da se unese broj preko tipkovnice i zatim pričekati da isto učine sve ostale dretve. Nakon što su sve dretve učitale brojeve, jedna po jedna ispisuju brojeve na zaslon. Problem barijere je potrebno riješiti porabom monitorske funkcije. Pseudokod monitorske funkcije "barijera" se nalazi u udžbeniku.
+
+Međusobno isključivanje dretava kod unosa brojeva moguće je riješiti porabom binarnog semafora ili učitavanjem u monitorskoj funkciji "barijera".
+
+Primjer ispisa pokretanja programa
+
+lumilic@barka:~/4$ ./a.out 6
+Broj dretava=6
+Dretva 4. unesite broj
+1
+Dretva 5. unesite broj
+2
+Dretva 3. unesite broj
+3
+Dretva 2. unesite broj
+4
+Dretva 1. unesite broj
+5
+Dretva 0. unesite broj
+6
+Dretva 0. uneseni broj je 6
+Dretva 5. uneseni broj je 2
+Dretva 4. uneseni broj je 1
+Dretva 3. uneseni broj je 3
+Dretva 2. uneseni broj je 4
+Dretva 1. uneseni broj je 5

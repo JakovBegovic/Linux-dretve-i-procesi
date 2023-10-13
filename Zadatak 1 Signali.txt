@@ -1,0 +1,34 @@
+Napišite program koji uz pomoć signala operacijskoga sustava igra jednostavnu igru žigica. Igra se inače u nešto općenitijem obliku na engleskom jeziku zove Nim (en.wikipedia.org/wiki/Nim) i za nju postoji savršen algoritam za pobjeđivanje (en.wikipedia.org/wiki/Nim#Mathematical_theory) iz bilo kojega položaja, što naravno ne treba programirati.
+
+Program treba imati jedan konstantan parametar, nazovimo ga M, koji mora biti cijeli broj veći od 2. Parametar ne treba biti fizički implementiran u programu. Program treba primiti i jedan argument preko naredbenoga retka, nazovimo ga N, koji mora biti cijeli broj veći od M. Pravila su sljedeća:
+
+1. Igraju dva igrača naizmjence, nazovimo ih A i B.
+2. Svaki igrač redom sa stola uzimlje određen cijeli broj žigica između 1 i M.
+3. Na stolu je početno N žigica.
+4. Gubi igrač koji sa stola uzme zadnju žigicu.
+
+Primjerice, recimo da je M 3 a N 7, kao u ispisu. Igrač A uzeo 1 žigicu, igrač B 2, igrač A 3 i igrač je A pobijedio jer igrač B mora uzeti zadnju žigicu, kao u ispisu.
+
+Broj žigica koji se uzimlje sa stola treba biti javljen programu preko signala s unosom jednoga broja (SIGINT neka zahtijeva unos za igrača A, SIGQUIT neka zahtijeva unos za igrača B, a SIGTSTP neka ubija program). Program završava kad netko pobijedi i nikako ne prije (osim ako ne stigne SIGTSTP). Kao i u svakoj vježbi, program ne smije imati radno čekanje. Kao i u svakoj vježbi, program ne smije uzrokovati segmentation fault. Primjer ispisa:
+
+lumilic@barka:~$ ./a.out 7
+M = 3. N = 7.
+Parametri su ispravni. Zapocinjem igru.
+Zigica na stolu: 7. Na redu igrac: A.
+^C
+Zigica igrac A uzeo sa stola:
+1<enter>
+Zigica na stolu: 6. Na redu igrac: B.
+^\
+Zigica igrac B uzeo sa stola:
+2<enter>
+Zigica na stolu: 4. Na redu igrac: A.
+^C
+Zigica igrac A uzeo sa stola:
+3<enter>
+Zigica na stolu: 1. Na redu igrac: B.
+^\
+Zigica igrac B uzeo sa stola:
+1<enter>
+Zigica na stolu: 0. Pobijedio igrac: A.
+lumilic@barka:~$ 

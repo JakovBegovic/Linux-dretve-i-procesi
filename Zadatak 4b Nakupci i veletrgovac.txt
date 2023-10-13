@@ -1,0 +1,57 @@
+Zamislimo sustav s trima dretvama nakupcima i jednom dretvom veletrgovcem računalnom opremom. Nakupci sastavljaju računala i prodaju ih. Jedan nakupac već ima samo neograničenu zalihu monitora, drugi tipkovnica, a treći računala (u kućištu, bez monitora i tipkovnice). Veletrgovac ima sve tri sastavnice u neograničenim količinama. Iz skladišta donosi nasumice po dvije sastavnice i stavlja ih na stol, ispisuje to i odspava jednu sekundu. Nakupac kojemu nedostaju baš te dvije sastavnice uzima ih, ispisuje to, odspava jednu sekundu, potpisuje primku veletrgovcu, sastavlja i dostavlja potpuno računalo svojemu kupcu, te se ponovno vraća po nove sastavnice za sljedeću narudžbu. Tek nakon što mu je potpisana primka, veletrgovac može ići u skladište po nove dvije sastavnice i krug se ponavlja. Na početku je stol prazan. Napišite program s dretvama nakupaca i veletrgovca tako da se one međusobno ispravno usklađuju. Za sinkronizaciju rabite jezgrin monitor.
+
+Primjer pozivanja programa:
+
+lumilic@barka:~/4$ ./b.out
+Veletrgovac stavio monitor i racunalo
+Nakupac s tipkovnicama uzeo monitor i racunalo
+Veletrgovac stavio monitor i tipkovnicu
+Nakupac s racunalima uzeo monitor i tipkovnicu
+Veletrgovac stavio racunalo i tipkovnicu
+Nakupac s monitorima uzeo tipkovnicu i racunalo
+Veletrgovac stavio racunalo i tipkovnicu
+Nakupac s monitorima uzeo tipkovnicu i racunalo
+Veletrgovac stavio racunalo i monitor
+Nakupac s tipkovnicama uzeo monitor i racunalo
+Veletrgovac stavio monitor i racunalo
+Nakupac s tipkovnicama uzeo monitor i racunalo
+Veletrgovac stavio tipkovnicu i racunalo
+Nakupac s monitorima uzeo tipkovnicu i racunalo
+Veletrgovac stavio monitor i tipkovnicu
+Nakupac s racunalima uzeo monitor i tipkovnicu
+Veletrgovac stavio tipkovnicu i racunalo
+Nakupac s monitorima uzeo tipkovnicu i racunalo
+Veletrgovac stavio racunalo i tipkovnicu
+Nakupac s monitorima uzeo tipkovnicu i racunalo
+Veletrgovac stavio monitor i tipkovnicu
+Nakupac s racunalima uzeo monitor i tipkovnicu
+Veletrgovac stavio monitor i tipkovnicu
+Nakupac s racunalima uzeo monitor i tipkovnicu
+Veletrgovac stavio tipkovnicu i monitor
+Nakupac s racunalima uzeo monitor i tipkovnicu
+Veletrgovac stavio monitor i tipkovnicu
+Nakupac s racunalima uzeo monitor i tipkovnicu
+Veletrgovac stavio monitor i racunalo
+Nakupac s tipkovnicama uzeo monitor i racunalo
+Veletrgovac stavio racunalo i monitor
+Nakupac s tipkovnicama uzeo monitor i racunalo
+Veletrgovac stavio tipkovnicu i monitor
+Nakupac s racunalima uzeo monitor i tipkovnicu
+Veletrgovac stavio racunalo i tipkovnicu
+Nakupac s monitorima uzeo tipkovnicu i racunalo
+Veletrgovac stavio monitor i racunalo
+Nakupac s tipkovnicama uzeo monitor i racunalo
+Veletrgovac stavio tipkovnicu i monitor
+Nakupac s racunalima uzeo monitor i tipkovnicu
+Veletrgovac stavio racunalo i tipkovnicu
+Nakupac s monitorima uzeo tipkovnicu i racunalo
+Veletrgovac stavio racunalo i monitor
+Nakupac s tipkovnicama uzeo monitor i racunalo
+Veletrgovac stavio monitor i racunalo
+Nakupac s tipkovnicama uzeo monitor i racunalo
+Veletrgovac stavio racunalo i monitor
+Nakupac s tipkovnicama uzeo monitor i racunalo
+Veletrgovac stavio monitor i tipkovnicu
+Nakupac s racunalima uzeo monitor i tipkovnicu
+Veletrgovac stavio monitor i tipkovnicu
+Nakupac s racunalima uzeo monitor i tipkovnicu

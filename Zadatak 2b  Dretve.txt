@@ -1,0 +1,30 @@
+Zadatak
+Napišite program koji prima tri argumenta; nazovimo ih l, m i n.
+
+Program treba stvoriti dva vektora (jednodimenzionalna polja) tako da im više dretava može pristupati od jednom; nazovimo ih a i b.
+
+Vektori trebaju biti dimenzije l.
+
+Vektor a treba napuniti slučajnim brojevima tipa long double iz raspona [0, 10 (ne [0, 10]).
+
+U vektor b treba izračunati eksponencijale svih brojeva članova vektora a kao ex≈∑i=0mxii!
+.
+
+Posao treba ravnomjerno raspodijeliti između n dretava tako da svaka dretva računa samo jedan dio (najmanje cijelo l kroz n) redaka rezultata.
+
+Glavna dretva ne sudjeluje u računanju, ali na kraju ispisuje rezultat (i briše zauzetu memoriju).
+
+Primjer ispisa prilikom pokretanja programa
+
+lumilic@barka~$ .b.out 4 23 2
+Eksponenti =
+5.847788192332
+0.089342403226
+9.863012842834
+3.010693686083
+Eksponencijale =
+  346.467191260243
+    1.093454994753
+19201.968228801844
+   20.301477894505
+lumilic@arka~$
